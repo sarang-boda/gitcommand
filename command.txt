@@ -1,0 +1,22 @@
+git init - initialize the git directory in the currrent repository
+git status - to know the status of files,in staging area or not,any change in staging area file.
+git add <filename>  - to add file into the staging area
+git add . - to add every file into the staging area
+git commit -m "message" - to commit the change in staging area files
+git log - to see the previous commits 
+git diff <filename> - to see the difference between last and current version of file 
+git checkout <filename> - to rollback to the last virsion of the file.
+git rm --cached -r . - remove from staging area
+git branch <name_of_branch> - to create new branch
+git branch - list of branch
+git checkout <branchname> - to swich between branch
+git merge <branchname> - to merge the branch
+
+to ignore the file to commit,write the name of the file in .gitignore file
+
+
+*remote repository*
+
+git remote add origin <URL>
+git push -u origin master
+git clone <URL>
